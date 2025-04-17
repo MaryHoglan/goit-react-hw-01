@@ -1,0 +1,48 @@
+
+
+/* Стили для списку друзів */
+.friendList {
+    list-style-type: none;
+    padding: 0;
+    margin: 25px 0;
+    background-color: #1f1f1f;
+}
+
+/* Стиль для кожного елемента списку */
+.friendItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #6b6a6a;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.friendItem:hover {
+    background-color: #8a89895f;
+}
+
+/* Стиль для аватарки */
+.avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Стиль для імені */
+.name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Стиль для статусу */
+.isOnline {
+    color: green;
+}
+
+.isOffline {
+    color: red;
+}
