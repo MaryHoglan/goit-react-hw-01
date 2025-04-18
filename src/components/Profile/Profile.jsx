@@ -1,7 +1,7 @@
 import styles from './Profile.module.css';
 
 
-function Profile({ name, tag, location, image, stats }) {
+export default function Profile({ name, tag, location, image, stats }) {
     return (
         <div className={styles.profile}>
             <div>
@@ -28,4 +28,3 @@ function Profile({ name, tag, location, image, stats }) {
    );
 }
 
-export default Profile;
